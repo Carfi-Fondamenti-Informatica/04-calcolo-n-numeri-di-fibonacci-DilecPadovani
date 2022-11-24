@@ -12,7 +12,7 @@ int main()
       return 0;
    };
    int a = 1, b = 0, c = 0;
-   for (int i = 1; i < n; i++)
+   for (int i = 1; i <= n; i++)
    {
       c = a + b;
       a = b;
